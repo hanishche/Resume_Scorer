@@ -7,8 +7,15 @@ from PyPDF2 import PdfReader
 import docx
 
 # Download NLTK data for first run
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
+# Ensure NLTK data is available in all environments
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+try:
+    nltk.data.find('taggers/averaged_perceptron_tagger')
+except LookupError:
+    nltk.download('averaged_perceptron_tagger')
 
 desired_keywords = [
     'python', 'sql', 'data analysis', 'machine learning', 'excel', 'communication', 'leadership',
