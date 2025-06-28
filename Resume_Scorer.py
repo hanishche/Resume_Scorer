@@ -322,9 +322,10 @@ with col2:
 
 st.markdown("#### 2. Or paste your resume text")
 resume_text = st.text_area(
-    "",
+    "Resume Text",
     height=180,
-    placeholder="Paste your resume content here if you don't want to upload a file."
+    placeholder="Paste your resume content here if you don't want to upload a file.",
+    label_visibility="collapsed"
 )
 
 if uploaded_file is not None:
