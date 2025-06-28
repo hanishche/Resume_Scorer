@@ -1,6 +1,0 @@
-streamlit
-pandas
-numpy
-nltk
-PyPDF2
-docx

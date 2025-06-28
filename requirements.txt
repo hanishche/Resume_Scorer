@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+nltk
+PyPDF2
+<<<<<<< HEAD:Requirements.txt
+docx
+=======
+>>>>>>> cf476b0c5bba3eaaee1d89d35d11475273d93d24:requirements.txt
