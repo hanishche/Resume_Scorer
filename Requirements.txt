@@ -1,5 +1,5 @@
 streamlit
 pandas
 numpy
-pip install nltk
+nltk
 PyPDF2
